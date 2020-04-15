@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: cloud-gate
+    name: ai-gate
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
     time-zone: GMT+8
@@ -24,7 +24,7 @@ spring:
   rabbitmq:
     host: 192.168.0.250
     port: 5672
-    virtual-host: /spring-cloud
+    virtual-host: /ylz-ai
     username: admin
     password: admin
   zipkin:
@@ -69,9 +69,9 @@ zuul:
 #    enabled: true
 
 auth:
-  serviceId: cloud-auth
+  serviceId: ai-auth
   client:
-    id: cloud-gate
+    id: ai-gate
     secret: 123456
     token-header: client-token
 

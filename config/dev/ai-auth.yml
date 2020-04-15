@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: cloud-auth
+    name: ai-auth
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
     time-zone: GMT+8
@@ -22,7 +22,7 @@ spring:
     password: 123456
     port: 6380
   datasource:
-    name: cloud
+    name: ylz_ai
     url: jdbc:mysql://192.168.0.250:3308/ylz_ai?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf8&useSSL=false&allowMultiQueries=true&allowPublicKeyRetrieval=true
     username: root
     password: 123456
@@ -45,7 +45,7 @@ spring:
   rabbitmq:
     host: 192.168.0.250
     port: 5672
-    virtual-host: /spring-cloud
+    virtual-host: /ylz-ai
     username: admin
     password: admin
   zipkin:
@@ -114,7 +114,7 @@ user:
   rsa-secret: xx1WET12^%3^(WE45
 
 client:
-  id: cloud-auth
+  id: ai-auth
   secret: 123456
   token-header: client-token
   expire: 3600
