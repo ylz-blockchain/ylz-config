@@ -86,15 +86,15 @@ swagger:
     username: admin
     password: admin
 
-#ribbon:
-#  eureka:
-#    enabled: true
-#  ReadTimeout: 60000
-#  ConnectTimeout: 60000
-#  MaxAutoRetries: 0
-#  MaxAutoRetriesNextServer: 0
-#  OkToRetryOnAllOperations: false
-#  NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+ribbon:
+  eureka:
+    enabled: true
+  ReadTimeout: 60000
+  ConnectTimeout: 60000
+  MaxAutoRetries: 0
+  MaxAutoRetriesNextServer: 0
+  OkToRetryOnAllOperations: false
+  NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
 
 hystrix:
   threadpool:

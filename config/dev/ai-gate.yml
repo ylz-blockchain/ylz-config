@@ -54,19 +54,19 @@ zuul:
         - origin
         - url
 
-#ribbon:
-#  eureka:
-#    enabled: true
-#  ReadTimeout: 120000
-#  ConnectTimeout: 120000
-#  MaxAutoRetries: 0
-#  MaxAutoRetriesNextServer: 0
-#  OkToRetryOnAllOperations: false
-#  NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
-#  httpclient:
-#    enabled: false
-#  okhttp:
-#    enabled: true
+ribbon:
+  eureka:
+    enabled: true
+  ReadTimeout: 120000
+  ConnectTimeout: 120000
+  MaxAutoRetries: 0
+  MaxAutoRetriesNextServer: 0
+  OkToRetryOnAllOperations: false
+  NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+  httpclient:
+    enabled: false
+  okhttp:
+    enabled: true
 
 auth:
   serviceId: ai-auth
