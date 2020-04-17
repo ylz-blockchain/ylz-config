@@ -48,6 +48,12 @@ spring:
     virtual-host: /ylz-ai
     username: admin
     password: admin
+    publisher-confirms: true
+    publisher-returns: true
+    #采用手动应答
+    listener:
+      simple:
+        acknowledge-mode: manual
   zipkin:
     enabled: true
   sleuth:
