@@ -126,7 +126,7 @@ redis:
   aec-iv: 0123456789abcdef
 
 request:
-  skip: /token,/druid/**,/swagger-ui.html,/doc.html,/v2/**,/webjars/**,/swagger**/**,/,/csrf,/error,/authClient/**
+  skip: /token,/druid/**,/swagger-ui.html,/doc.html,/v2/**,/webjars/**,/swagger**/**,/,/csrf,/error,/authClient/**,/frontAuthClient/**
 
 logging:
   level:
