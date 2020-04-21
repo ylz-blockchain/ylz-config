@@ -78,7 +78,7 @@ mybatis-plus:
 swagger:
   # 配置请求路由
   zuul:
-    host: 127.0.0.1:8765
+    host: 192.168.0.119:8765
     prefix: /api/auth
   production: false
   basic:
