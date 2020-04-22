@@ -118,7 +118,7 @@ auth:
     token-header: client-token
 
 request:
-  skip: /druid/**,/swagger-ui.html,/doc.html,/v2/**,/webjars/**,/swagger**/**,/,/csrf,/error,/frontUser/validate
+  skip: /druid/**,/swagger-ui.html,/doc.html,/v2/**,/webjars/**,/swagger**/**,/,/csrf,/error
 
 swagger:
   # 配置请求路由
