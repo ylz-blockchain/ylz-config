@@ -130,3 +130,8 @@ swagger:
     enable: false
     username: admin
     password: admin
+
+weixin:
+  appid:
+  secret:
+  grant_type: authorization_code
