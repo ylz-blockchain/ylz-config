@@ -2,6 +2,9 @@ logging:
   level:
     com.ylz.ai.mobile: DEBUG
 spring:
+  servlet:
+    multipart:
+      location: D://BaiduNetdiskDownload/
   application:
     name: ai-mobile
   jackson:
@@ -135,3 +138,6 @@ weixin:
   appid:
   secret:
   grant_type: authorization_code
+
+upload:
+  path: D://BaiduNetdiskDownload/
