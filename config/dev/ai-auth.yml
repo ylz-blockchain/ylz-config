@@ -110,7 +110,7 @@ hystrix:
             timeoutInMilliseconds: 15000
 
 user:
-  expire: 3600
+  expire: 10
   rsa-secret: xx1WET12^%3^(WE45
 
 client:
