@@ -135,3 +135,6 @@ weixin:
   appid: 123
   secret: 123
   grant_type: authorization_code
+
+upload:
+  path: /opt/picture
