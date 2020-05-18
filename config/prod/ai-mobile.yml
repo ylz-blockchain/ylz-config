@@ -132,8 +132,8 @@ swagger:
     password: admin
 
 weixin:
-  appid: 123
-  secret: 123
+  appid: wx578b4454700f0a35
+  secret: a9d765b57060b8e276a64567205325bd
   grant_type: authorization_code
 
 upload:
